@@ -26,12 +26,12 @@
 
 
 	<!-- icon picker -->
-	<script type="text/javascript" src="https://unpkg.com/@fonticonpicker/fonticonpicker/dist/js/jquery.fonticonpicker.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker/dist/css/base/jquery.fonticonpicker.min.css" />
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker/dist/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css" />
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker/dist/css/themes/dark-grey-theme/jquery.fonticonpicker.darkgrey.min.css" />
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker/dist/css/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker/dist/css/themes/inverted-theme/jquery.fonticonpicker.inverted.min.css" />
+	<script type="text/javascript" src="https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/js/jquery.fonticonpicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/css/base/jquery.fonticonpicker.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/css/themes/dark-grey-theme/jquery.fonticonpicker.darkgrey.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/css/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/css/themes/inverted-theme/jquery.fonticonpicker.inverted.min.css" />
 
 	<!-- Font -->
 	<link rel="stylesheet" type="text/css" href="fontello-7275ca86/css/fontello.css" />
@@ -79,7 +79,11 @@
 	<section id="about">
 		<div class="jumbotron" style="background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);">
 			<div class="container">
-				<h1>jQuery fontIconPicker <small>v3.0.0</small></h1>
+				<div class="text-center fip-logo">
+					<img src="fip.svg" alt="FontIconPicker">
+				</div>
+				<h1>jQuery fontIconPicker <small>v3.1.1</small></h1>
+				<p>For the react version, look <a href="https://fonticonpicker.github.io/react-fonticonpicker/">here</a>.</p>
 				<p>jQuery fontIconPicker is a small jQuery plugin which allows you to include an elegant icon picker with categories, search and pagination inside your administration forms. The list of icons can be loaded manually using a <code>SELECT</code> field, an <code>Array</code> or <code>Object</code> of icons or directly from a Fontello <code>config.json</code> or IcoMoon <code>selection.json</code> file. Here are some examples.</p>
 				<div class="text-center margin-top">
 					<div class="alert alert-info">
@@ -159,7 +163,7 @@ const fip = require( '@fonticonpicker/fonticonpicker' )( jQuery );
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker/dist/js/jquery.fonticonpicker.min.js&quot;&gt;&lt;/script&gt;</pre>
 					<h3>Styles</h3>
 					<pre class="brush: html">
-&lt;!-- styles --&gt;&#10;&lt;!-- base | always include --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/base/jquery.fonticonpicker.min.css&quot;&gt;&#10;&#10;&lt;!-- default grey-theme --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css&quot;&gt;&#10;&#10;&lt;!-- optional themes | no need to include default theme --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css&quot;&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/dark-grey-theme/jquery.fonticonpicker.darkgrey.min.css&quot;&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/inverted-theme/jquery.fonticonpicker.inverted.min.css&quot;&gt;</pre>
+&lt;!-- styles --&gt;&#10;&lt;!-- base | always include --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.1.1/dist/css/base/jquery.fonticonpicker.min.css&quot;&gt;&#10;&#10;&lt;!-- default grey-theme --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css&quot;&gt;&#10;&#10;&lt;!-- optional themes | no need to include default theme --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css&quot;&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/dark-grey-theme/jquery.fonticonpicker.darkgrey.min.css&quot;&gt;&#10;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://unpkg.com/@fonticonpicker/fonticonpicker@3.0.0-alpha.0/dist/css/themes/inverted-theme/jquery.fonticonpicker.inverted.min.css&quot;&gt;</pre>
 				</div>
 				<div class="tab-pane in-fade" id="installation_script">
 					<p>Go to <a href="https://github.com/fontIconPicker/fontIconPicker/releases">GitHub Release</a> and download a release. Use the compiled JS and CSS files.</p>

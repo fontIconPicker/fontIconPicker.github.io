@@ -8,6 +8,10 @@ body {
 #about .jumbotron {
 	margin-top: 50px;
 }
+.fip-logo img {
+	width: 128px;
+	height: 128px;
+}
 
 section h2 {
 	clear: both;
